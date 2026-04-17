@@ -2,7 +2,7 @@ import requests
 import json
 
 
-api_response = requests.get('https://content.guardianapis.com/search?api-key=592ef041-e9aa-4777-a771-47b1b0d690be') #accesing API
+api_response = requests.get('--------YOUR API KEY------') #accesing API
 
 # print(api_response.json()['response'])
 '''converting our API response to Json #it is simply list of dictonary# after that we filter through keys'''
